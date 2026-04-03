@@ -1,0 +1,44 @@
+[
+    {
+        "Dataset":"SQuAD",
+        "System":"Single Agent (No Chunk)",
+        "Chunking":"No",
+        "Exact Match":0.48,
+        "F1 Score":0.553
+    },
+    {
+        "Dataset":"SQuAD",
+        "System":"Multi Agent (No Chunk)",
+        "Chunking":"No",
+        "Exact Match":0.47,
+        "F1 Score":0.524
+    },
+    {
+        "Dataset":"SQuAD",
+        "System":"Single Agent (Chunked)",
+        "Chunking":"Yes",
+        "Exact Match":0.32,
+        "F1 Score":0.371
+    },
+    {
+        "Dataset":"SQuAD",
+        "System":"Multi Agent (Chunked)",
+        "Chunking":"Yes",
+        "Exact Match":0.4,
+        "F1 Score":0.449
+    },
+    {
+        "Dataset":"HotpotQA",
+        "System":"Single Agent (Chunked)",
+        "Chunking":"Yes",
+        "Exact Match":0.3,
+        "F1 Score":0.411
+    },
+    {
+        "Dataset":"HotpotQA",
+        "System":"Multi Agent (Chunked)",
+        "Chunking":"Yes",
+        "Exact Match":0.37,
+        "F1 Score":0.476
+    }
+]
