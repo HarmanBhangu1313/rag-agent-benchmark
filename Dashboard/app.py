@@ -136,14 +136,14 @@ with st.sidebar:
 
 # ── Page routing ──────────────────────────────────────────────────────────────
 if "Benchmark" in page:
-    import pages.benchmark as benchmark
+    from Pages import benchmark
     benchmark.show()
 elif "Trace" in page:
-    import pages.trace_viewer as trace_viewer
+    from Pages import trace_viewer
     trace_viewer.show()
 elif "Chunking" in page:
-    import pages.chunking_impact as chunking_impact
+    from Pages import chunking_impact
     chunking_impact.show()
 elif "Failure" in page:
-    import pages.chunking_impact as chunking_impact
+    from Pages import failure_analysis
     failure_analysis.show()
