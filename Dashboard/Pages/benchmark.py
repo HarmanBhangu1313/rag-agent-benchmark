@@ -138,7 +138,7 @@ def show():
             fill="toself",
             name=name,
             line=dict(color=color, width=2),
-            fillcolor=color.replace(")", ", 0.12)").replace("rgb", "rgba") if "rgb" in color else color + "20",
+            fillcolor="rgba(163,113,247,0.15)" if name == "Single-Agent" else "rgba(63,185,80,0.15)",
         ))
     fig_radar.update_layout(
         **PLOTLY_LAYOUT,
