@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Uptiq — AI Agent Reliability Platform",
+    page_title="AI Agent Reliability Platform",
     page_icon="⚡",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -102,7 +102,7 @@ with st.sidebar:
     st.markdown("""
     <div style="padding: 1rem 0 1.5rem;">
         <div style="font-size: 1.3rem; font-weight: 700; color: #e6edf3; letter-spacing: -0.02em;">
-            ⚡ Uptiq
+            ⚡ 
         </div>
         <div style="color: #8b949e; font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; margin-top: 2px;">
             AI Agent Reliability Platform
