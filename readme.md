@@ -1,9 +1,12 @@
 # AI Agent Reliability & Benchmarking Platform
 
-> *Companies deploying AI agents lack tools to evaluate retrieval reliability and preprocessing robustness. Uptiq makes that visible.*
+> *Companies deploying AI agents lack tools to evaluate retrieval reliability and preprocessing robustness. this makes that visible.*
 
 A research platform for understanding **when and why RAG systems fail** — built on real experimentation across two QA datasets, two architectures, and systematic ablation studies. This is not just a benchmark. It is an end-to-end reliability analysis tool with a live dashboard, retrieval trace viewer, and failure attribution engine.
 
+## 🚀 Live Demo
+
+[Open Interactive Dashboard](https://benchmarking-robustness-in-agentic-rag-systems-lpdtnsyj4ywyncv.streamlit.app/)
 ---
 
 ##  Core Research Finding
